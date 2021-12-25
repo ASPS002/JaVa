@@ -3,18 +3,21 @@ import java.util.*;
 public class write2 {
     public static  void main(String[] args) 
     {
-        simplerandom(50);
+        // simplerandom(50);
+        String s=" abg ";
+        s=s.trim();
+        System.out.println(s.length());
     }
-    public static void simplerandom(int roll)
-    {
-        Random rand=new Random();
-        int []counts=new int[7];
-        for(int i=0;i<roll;i++)
-        {
-            int d=rand.nextInt(6)+1;
-            counts[d]++;
+    // public static void simplerandom(int roll)
+    // {
+    //     Random rand=new Random();
+    //     int []counts=new int[7];
+    //     for(int i=0;i<roll;i++)
+    //     {
+    //         int d=rand.nextInt(6)+1;
+    //         counts[d]++;
 
-        }
-        System.out.println(counts[0]+" "+counts[3]);
-    }
+    //     }
+    //     System.out.println(counts[0]+" "+counts[3]);
+    // }
 }

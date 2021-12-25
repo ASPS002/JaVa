@@ -1,4 +1,5 @@
-package edu.duke;
+
+ package edu.duke;
 public class common_word_length extends FileResource
 { 
 	public static void main(String args[])

@@ -8,7 +8,7 @@ public class Caesar_Cipher_2_key extends FileResource {
     // int key2 = 20;
     // FileResource fr = new FileResource();
     // String message=fr.asString();
-    FileResource resource = new FileResource("secretmessage1.txt");
+    FileResource resource = new FileResource("athens_keyflute.txt");
     String message = resource.asString();
     // for (String s : resource.words()) {
     //   message += s;
